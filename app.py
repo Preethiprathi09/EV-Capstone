@@ -1,7 +1,7 @@
 # app.py (beautified)
 """
 Beautified Streamlit app for:
-EV Adoption & Charge Optimization — Noor's Capstone
+EV Adoption & Charge Optimization 
 Save as app.py (replace existing)
 """
 
@@ -18,11 +18,9 @@ from sklearn.ensemble import RandomForestRegressor
 import pulp
 import os
 
-st.set_page_config(page_title="EV Adoption & Charge Optimization — Noor", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="EV Adoption & Charge Optimization ", layout="wide", initial_sidebar_state="expanded")
 
-# -----------------------
-# Small CSS for nicer look
-# -----------------------
+
 st.markdown(
     """
     <style>
@@ -243,7 +241,7 @@ run_opt = st.sidebar.button("Run Optimization")
 # -------------------------
 # Header
 # -------------------------
-st.markdown("<h1 class='title'>⚡ EV Adoption & Charging Optimization — Noor</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>⚡ EV Adoption & Charging Optimization </h1>", unsafe_allow_html=True)
 st.markdown("<div class='small'>Interactive capstone dashboard • Mapping • Prediction • Scheduling optimization</div>", unsafe_allow_html=True)
 st.write("")
 
@@ -359,4 +357,4 @@ with right_col:
 
 # Footer
 st.markdown("---")
-st.caption("Built for Noor's capstone — EV Adoption & Charge Optimization. Tip: export outputs from ../outputs for slides.")
+st.caption("EV Adoption & Charge Optimization. Tip: export outputs from ../outputs for slides.")
