@@ -1,0 +1,9 @@
+streamlit>=1.20
+streamlit-folium
+pandas
+numpy
+scikit-learn
+joblib
+folium
+pulp
+matplotlib

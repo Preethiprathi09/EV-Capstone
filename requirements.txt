@@ -1,0 +1,14 @@
+pandas>=1.5
+numpy
+scikit-learn
+matplotlib
+seaborn
+folium
+ipywidgets
+jupyterlab
+geopandas
+shapely
+pulp            # for optimization (LP/MIP)
+requests
+plotly
+notebook
